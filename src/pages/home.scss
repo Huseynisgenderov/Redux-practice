@@ -1,0 +1,33 @@
+body{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        button{
+            padding:20px;
+            background-color: rgb(69, 69, 69);
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+}
+.dark{
+    background-color: #000;
+    color: #fff;
+    transition: .5s;
+}
+.app{
+    transition: .5s;
+}
